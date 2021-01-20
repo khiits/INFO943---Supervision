@@ -20,13 +20,11 @@ Nous  verrons  ici  la  commande  stats  ainsi  que l’API rest permettant d’
 L’objectif  de  cette  partie  est  de  mettre  en  place  un  service  de  broker MQTT  sous  Mosquitto.
 Nous  développerons  dans  ce  cadre  deux  broker  Mosquitto.  Un premier sera sur une raspberry pi et un second à l’intérieur d’un container docker.
 
-## Partie 4 - Base de donné
+## Partie 4 - Base de données
 
 Un premier utilisateur du flux de données envoyé dans MQTT est  une  base  de  données.  Le  but  de  cette  partie  est  la  mise  en  place  de  la  Base  de données. Dans ce cadre nous déploierons deux types de base de données.
 Une base de données  MySQL  et  une  base  de  données  NoSQL  REDIS. Ces  deux  bases  seront déployés dans des composants dockers.
 
-## Partie 5 - Base de donné
+## Partie 5 - Base de données
 
 visualisation des performances- l’objectif de cette partie est de développer sous angular  un  tableau  de  bord  permettant  de  visualiser  les  performances  des  containers docker observé.
-
-Test
