@@ -1,7 +1,12 @@
 
 # Docker
+## Installation pas a pas
 
-## Installation Docker Engine sur Ubuntu
+### Installation Ubuntu Groovy 20.10
+
+lien d'installation : https://releases.ubuntu.com/20.10/
+
+### Installation Docker Engine sur Ubuntu
 
 lien : https://docs.docker.com/engine/install/ubuntu/?fbclid=IwAR1hwpqWHzFqkZEWxnGOnjVxcdn9uZMY6gI-kRAfPBRa1UsrdMgfrmbQM5w
 
@@ -17,4 +22,27 @@ sudo apt-get install \
 sudo apt-get update
 sudo apt-get install docker-ce docker-ce-cli containerd.io
 sudo docker run hello-world
+```
+
+### Installation de l'environnement de développement Python
+
+lien : https://linuxize.com/post/how-to-install-pip-on-ubuntu-18.04/
+
+```
+sudo apt update
+sudo apt install python3-pip
+```
+
+### Installation de l'API - Docker SDK for Python
+
+Dans l'environnement de développement Python :
+```
+pip install docker
+import docker
+client = docker.from_env()
+```
+
+Pour tester le bon fonctionnement : 
+```
+client.containers.run("ubuntu", "echo hello world")
 ```
