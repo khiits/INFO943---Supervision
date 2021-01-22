@@ -51,3 +51,4 @@ client.containers.run("ubuntu", "echo hello world")
 ## Utilisation container
 
 lien :https://www.docker.com/blog/containerized-python-development-part-1/
+https://openclassrooms.com/fr/courses/2035766-optimisez-votre-deploiement-en-creant-des-conteneurs-avec-docker/6211458-lancez-votre-premier-conteneur-en-local
