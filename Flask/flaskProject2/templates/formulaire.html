@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Login form </title>
+        <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}" type="text/css" />
+    </head>
+    <body>
+
+        <div id="container">
+            <form id ="formu" action="/log" method="post">
+                <h1>Login: </h1>
+                <input type="text"placeholder="Username" name="username"
+                       value="{{ request.form.username }}" required>
+                <input type="password" placeholder="Password" name="password"
+                       value="{{ request.form.password }}" required>
+                <input type="submit" value="Login">
+            </form>
+        </div>
+            <form action="/new">
+                <label>New here ?</label>
+                <input type="submit" value="Register">
+            </form>
+    </body>
+</html>

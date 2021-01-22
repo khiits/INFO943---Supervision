@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Login form </title>
+    </head>
+    <body>
+        <p>Login: </p>
+        <div class="container">
+            <form action="/reg" method="post">
+                <input type="text"placeholder="Username" name="username"
+                       value="{{ request.form.username }}" required>
+                <input type="password" placeholder="Password" name="password"
+                       value="{{ request.form.password }}" required>
+                <input type="submit" value="Register">
+            </form>
+        </div>
+    </body>
+</html>
