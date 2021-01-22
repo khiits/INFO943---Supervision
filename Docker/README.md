@@ -48,3 +48,6 @@ Pour tester le bon fonctionnement :
 ```
 client.containers.run("ubuntu", "echo hello world")
 ```
+## Utilisation container
+
+lien :https://www.docker.com/blog/containerized-python-development-part-1/
