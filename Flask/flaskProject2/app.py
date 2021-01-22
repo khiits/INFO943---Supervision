@@ -51,3 +51,8 @@ def create_app():
             return render_template('register.html')
 
     return app
+
+if __name__ == '__main__':
+    app = create_app()
+    app.debug = True
+    app.run()
